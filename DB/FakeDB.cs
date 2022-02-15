@@ -19,6 +19,13 @@ namespace gregsList_csharp.DB
     new House(300000, 3,3, 1990, "Middle Class address", ""),
     new House(2000000, 4, 5, 2020, "You better be rich",""),
   };
+    public static List<Job> Jobs { get; set; } = new List<Job>()
+  {
+    new Job(25000, "fastfood employee","McDonalds", "PartTime", "Boise", ""),
+    new Job(40000, "teacher", "HighSchool", "FullTime", "Eagle",""),
+    new Job(100000, "Lawyer", "Associates and Associates", "FullTime", "Boise", ""),
+    new Job(100000000, "Stock Trader", "Citadel", "PartTime", "Chicago", ""),
+  };
 
 
   }
