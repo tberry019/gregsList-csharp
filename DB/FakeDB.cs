@@ -12,6 +12,14 @@ namespace gregsList_csharp.DB
     new Car(50000, "Dodge", "Charger", 1969, "Those Duke bioys are at it again", ""),
   };
 
+    public static List<House> Houses { get; set; } = new List<House>()
+  {
+    new House(100000, 1, 1, 1950, "Shack on side of road", "" ),
+    new House(200000, 2, 2, 1965, "Lakeridge", "" ),
+    new House(300000, 3,3, 1990, "Middle Class address", ""),
+    new House(2000000, 4, 5, 2020, "You better be rich",""),
+  };
+
 
   }
 }
